@@ -9,7 +9,9 @@ In this data, we have daily readings of minimum temperatures from Melbourne, Aus
 -Holt-Winter </br>
 
 ### Key Exploratory Figure
-![alt text](images/Summary.png)
+![alt text](images/Summary.png)</br>
+We normally use RMSE to evaluate model accuracy. Even though I expected for Holt Winter’s model to have the best performance, it turns out that a simpler time series linear model
+has the best performance. Seasonal naive was used as a base model. It is used for highly seasonal data and the forecasting accuracy might’ve not been as good as time series’ because the model uses the most recently observed value.
 
 ### Conclusions
 Even though we learned a lot about the models, it wasn’t possible to conclude anything globalwarming tendencies. There are 2 possible reasons for this: 1). The range of data is not large enough. It might be more reasonable to obtain at least 50 years of minimum temperature readings and take a look at the data trend to make more appropriate conclusions; 2). While only Melbourne, Austria, was considered in the this analysis, it might be more effective to consider at lear 3 various locations to draw out a better conclusion.
